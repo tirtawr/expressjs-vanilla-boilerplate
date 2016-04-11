@@ -32,8 +32,14 @@ $ npm install
 $ npm start
 ```
 
-###### For other env (production):
+###### Using other environment (default is development):
 
 ```sh
 $ NODE_ENV=production npm start
+```
+
+###### Using custom port (default is 7321):
+
+```sh
+$ PORT=7000 npm start
 ```
