@@ -85,18 +85,9 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  console.log('Welcome to Poseidon!');
+  console.log('Welcome to <INSERT_APP_NAME_HERE>!');
 
-  var welcomeMessage = '';
-  welcomeMessage += '\n       |      ,sss.         ';
-  welcomeMessage += '\n     | | |    $^,^$    <><   _______                       _        __           <><       ';
-  welcomeMessage += '\n     |_|_|   _\/$$$\\_        |_   __ \\        <><          (_)      |  ]              ';
-  welcomeMessage += '\n       |   \/\'  ?$?  `.       | |__) | .--.   .--.  .---.  __   .--.| |  .--.   _ .--.   ';
-  welcomeMessage += '\n       ;,-\' \/\\ ,, \/. |       |  ___\/ \/.\'`\\ \\( (`\\]\/ \/__\\\\[  |\/ \/\'`\\\' |\/ .\'`\\ \\[ `.-. |  ';
-  welcomeMessage += '\n       \'-.\/\' ;    ;: |      _| |_   | \\._. | `\'.\'.| \\__., | || \\__\/  || \\__. | | | | |  ';
-  welcomeMessage += '\n       |     |`  \'|`,;     |_____|   \'.__.\' [\\__) )\'.__.\'[___]\'.__.;__]\'.__.\' [___||__] ';
-  welcomeMessage += '\n   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~';
-  welcomeMessage += '\n   Listening on ' + bind;
+  var welcomeMessage = '<WELCOME_MESSAGE>';
   console.log(welcomeMessage);
 
 }
